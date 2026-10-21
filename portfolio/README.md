@@ -42,7 +42,7 @@ Si deseas clonar y ejecutar este portfolio en tu entorno local, sigue estos paso
 
 Clonar el repositorio:
 
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/tu-usuario/Portfolio.git
 
 
 Instalar dependencias:

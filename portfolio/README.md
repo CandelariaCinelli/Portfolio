@@ -1,61 +1,68 @@
-Portafolio Profesional — Candelaria Cinelli
+# Portafolio de Candelaria Cinelli
 
-Portafolio web personal desarrollado con React y TypeScript, diseñado bajo un concepto visual Café Minimalista & Editorial Tech. El proyecto refleja una identidad sobria, profesional y moderna, orientada a destacar proyectos de desarrollo Full-Stack con arquitectura limpia y experiencia de usuario cuidada.
+Sitio personal para presentar mi perfil como Técnica en Desarrollo de Software, mis proyectos, tecnologías y canales de contacto. Está construido con React y TypeScript, con componentes modulares y una identidad visual editorial en tonos café cálidos.
 
-☕ Estética Visual & Identidad
+## Secciones
 
-Paleta de Colores: Tonos café cálidos y neutros (#F9F6F0 para fondos limpios y #261C14 para tipografías de alto contraste).
+En el sitio se presentan, en este orden:
 
-Enfoque: Editorial tech, priorizando la tipografía, los espacios en blanco, la narrativa clara en los proyectos y la interactividad fluida mediante modales.
+1. **Sobre mí:** perfil profesional, principios de trabajo, enlaces y descarga del currículum.
+2. **Proyectos:** cinco aplicaciones con capturas, descripción, tecnologías y enlaces a sus repositorios. Las imágenes se pueden ampliar desde cada tarjeta.
+3. **Stack tecnológico:** herramientas agrupadas en Frontend, Backend, Bases de datos, DevOps e Inteligencia Artificial. Esta última sección destaca agentes de IA, programación de skills y SDD (Software Design & Development).
+4. **Idiomas:** español nativo e inglés intermedio.
+5. **Contacto:** correo, teléfono, ubicación, perfiles profesionales y formulario de contacto.
 
-Idioma: Interfaz, documentación y código estructurados estrictamente en español.
+## Tecnologías
 
-🛠️ Tecnologías y Stack
+- React 19 y TypeScript
+- Vite
+- Tailwind CSS 4
+- Lucide React para iconografía
 
-Frontend: React, TypeScript, Tailwind CSS.
+## Requisitos
 
-Control de Estado: Hooks nativos de React (useState).
+- Node.js y npm
 
-Arquitectura de Componentes: Modular y escalable, separando vistas principales y modales interactivos.
+## Instalación y desarrollo
 
+Desde la carpeta del proyecto:
 
-
-🧩 Componentes Clave y Funcionalidades
-
-Gestión Global de Modales (App.tsx):
-
-Controla centralmente la apertura y cierre de los modales interactivos del sistema (Currículum, Demo de Carrito y Arquitectura Backend), permitiendo pasar estados y parámetros específicos (como títulos de proyectos o IDs) de forma limpia.
-
-Sección de Proyectos:
-
-Diseñada bajo una narrativa estructurada (Inicio, Desarrollo y Desenlace) para mostrar no solo el resultado visual, sino las decisiones técnicas tomadas en el backend y frontend.
-
-Modales Interactivos:
-
-Visor de Arquitectura: Permite explorar la estructura en capas de los desarrollos backend.
-
-Simulador de Carrito: Demuestra lógica de programación en el cliente integrada de forma fluida.
-
-🚀 Instalación y Ejecución Local
-
-Si deseas clonar y ejecutar este portfolio en tu entorno local, sigue estos pasos:
-
-Clonar el repositorio:
-
-git clone https://github.com/tu-usuario/tu-repositorio.git
-
-
-Instalar dependencias:
-
+```bash
 npm install
-
-
-Iniciar el servidor de desarrollo:
-
 npm run dev
+```
 
+Vite inicia el servidor de desarrollo en `http://localhost:3000`.
 
-Abrir en el navegador:
-Accede a http://localhost:5173 (o el puerto que indique tu terminal).
+## Comandos disponibles
 
+| Comando | Descripción |
+| --- | --- |
+| `npm run dev` | Inicia el servidor de desarrollo. |
+| `npm run lint` | Comprueba los tipos de TypeScript. |
+| `npm run build` | Genera la versión de producción en `dist/`. |
+| `npm run preview` | Sirve localmente la versión de producción. |
+| `npm run server` | Inicia el servidor auxiliar definido en `server.cjs`. |
 
+## Estructura principal
+
+```text
+src/
+├── componentes/       # Navegación y secciones de la página
+├── datos/             # Contenido de proyectos, principios y tecnologías
+├── assets/images/     # Fotografía del perfil
+├── App.tsx            # Composición y orden de las secciones
+└── index.css          # Estilos globales y tema visual
+assets/                # Imágenes de los proyectos
+public/CVDSult.pdf     # Currículum descargable
+```
+
+El contenido de los proyectos, sus capturas, tecnologías y enlaces se mantiene en `src/datos/contenidoPortafolio.ts`. Los canales de contacto se configuran en `src/datos/datosPortafolio.ts`.
+
+## Formulario de contacto
+
+El formulario envía los mensajes mediante `POST /api/contactos`. Por defecto intenta conectarse a `http://localhost:8787`; para apuntar a otra instancia se puede definir la variable de entorno `VITE_API_URL`.
+
+## Identidad visual y accesibilidad
+
+La interfaz usa fondos marfil (`#F9F6F0`), tipografía café oscuro (`#261C14`) y acentos canela (`#D27D2D`). La navegación se adapta a pantallas móviles, las imágenes de proyectos disponen de una vista ampliada y los controles principales incluyen etiquetas accesibles.

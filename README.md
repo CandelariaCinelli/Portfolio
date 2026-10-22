@@ -1,53 +1,44 @@
-Portafolio Profesional — Candelaria Cinelli
+# 🚀 Portfolio Profesional | Candelaria Cinelli Garcia
 
-Portafolio web personal desarrollado con React y TypeScript, diseñado bajo un concepto visual Café Minimalista & Editorial Tech. El proyecto refleja una identidad sobria, profesional y moderna, orientada a destacar proyectos de desarrollo Full-Stack con arquitectura limpia y experiencia de usuario cuidada.
+> **Técnica en Desarrollo de Software | Full Stack & Mobile Developer**
 
-☕ Estética Visual & Identidad
+🌐 **Sitio Web En Vivo:** [Ver Portfolio Desplegado en Vercel](https://candelaria-cinelli.vercel.app/)
 
-Paleta de Colores: Tonos café cálidos y neutros (#F9F6F0 para fondos limpios y #261C14 para tipografías de alto contraste).
+---
 
-Enfoque: Editorial tech, priorizando la tipografía, los espacios en blanco, la narrativa clara en los proyectos y la interactividad fluida mediante modales.
+## 💻 Sobre Mí
+Desarrolladora de software orientada a construir aplicaciones escalables, robustas y centradas en la experiencia del usuario. Especializada en ecosistemas **React / React Native** para frontend/móvil y **Spring Boot / Java** para el desarrollo backend.
 
-Idioma: Interfaz, documentación y código estructurados estrictamente en español.
+---
 
-🛠️ Tecnologías y Stack
+## 🛠️ Stack Tecnológico
+* **Frontend / Mobile:** React, React Native, Expo, TypeScript, JavaScript, HTML5, CSS3, Vite.
+* **Backend:** Java, Spring Boot, REST APIs, JWT Security.
+* **Bases de Datos:** SQL, MySQL, SQLite, SQL.js.
+* **DevOps & Cloud:** AWS S3, Git, GitHub, Vercel.
+* **IA & Metodologías:** Software Design & Development (SDD), agentes de IA, desarrollo de skills y automatización de flujos.
 
-Frontend: React, TypeScript, Tailwind CSS.
+---
 
-Control de Estado: Hooks nativos de React (useState).
+## 📂 Proyectos Incluidos
+1. **⛅ App del Clima:** Aplicación móvil con geolocalización nativa y consumo de OpenWeatherMap API (React Native, Expo).
+2. **💰 Gestor de Gastos e Ingresos:** App de finanzas personales con persistencia de datos local en SQLite y TypeScript.
+3. **🗳️ AlmaVota:** Plataforma de participación ciudadana con backend modular en Spring Boot y frontend en React.
+4. **🛒 Shopping Cart:** Carrito de compras interactivo desarrollado en React.
+5. **👤 User Management System:** Sistema Full Stack de gestión de usuarios con seguridad JWT y almacenamiento de archivos en AWS S3.
 
-Arquitectura de Componentes: Modular y escalable, separando vistas principales y modales interactivos.
-Componentes Clave y Funcionalidades
+---
 
-🧩 Componentes Clave y Funcionalidades
+## ⚙️ Instalación Local
+```bash
+# Clonar repositorio
+git clone [https://github.com/CandelariaCinelli/portfolio.git](https://github.com/CandelariaCinelli/portfolio.git)
 
-Gestión Global de Modales (App.tsx):
-
-Controla centralmente la apertura y cierre de los modales interactivos del sistema (Currículum, Demo de Carrito y Arquitectura Backend), permitiendo pasar estados y parámetros específicos (como títulos de proyectos o IDs) de forma limpia.
-
-Sección de Proyectos:
-
-Diseñada bajo una narrativa estructurada (Inicio, Desarrollo y Desenlace) para mostrar no solo el resultado visual, sino las decisiones técnicas tomadas en el backend y frontend.
-
-Modales Interactivos:
-
-Visor de Arquitectura: Permite explorar la estructura en capas de los desarrollos backend.
-
-Simulador de Carrito: Demuestra lógica de programación en el cliente integrada de forma fluida.
-
-🚀 Instalación y Ejecución Local
-
-Si deseas clonar y ejecutar este portfolio en tu entorno local, sigue estos pasos:
-
-Clonar el repositorio:
-
-git clone https://github.com/tu-usuario/tu-repositorio.git
-
-
-Instalar dependencias:
-
+# Instalar dependencias
 npm install
 
+# Ejecutar servidor de desarrollo
+npm run dev
 
 Iniciar el servidor de desarrollo:
 

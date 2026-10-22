@@ -19,6 +19,8 @@ Control de Estado: Hooks nativos de React (useState).
 Arquitectura de Componentes: Modular y escalable, separando vistas principales y modales interactivos.
 Componentes Clave y Funcionalidades
 
+🧩 Componentes Clave y Funcionalidades
+
 Gestión Global de Modales (App.tsx):
 
 Controla centralmente la apertura y cierre de los modales interactivos del sistema (Currículum, Demo de Carrito y Arquitectura Backend), permitiendo pasar estados y parámetros específicos (como títulos de proyectos o IDs) de forma limpia.
